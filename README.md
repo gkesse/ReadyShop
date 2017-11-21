@@ -16,8 +16,8 @@ flexible et personnalisable pour la mise en place de Boutique en Ligne.
 C'est une bibliothèque développée en PHP et maintenu par 
 [Gerard KESSE](http://5.48.215.193:8855/presentation/ "Accédez à mon site web (ReadyDev)").
 
-###Interface des Produits : 
+### Interface des Produits : 
 ![Interface des Produits](https://raw.githubusercontent.com/gkesse/ReadyShop/master/img/Site/Produits.png)
 
-###Interface des Categories :
+### Interface des Categories :
 ![Interface des Produits](https://raw.githubusercontent.com/gkesse/ReadyShop/master/img/Site/Categories.png)
