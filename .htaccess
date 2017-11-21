@@ -1,0 +1,12 @@
+ErrorDocument 404 /error/
+DirectoryIndex index.php
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^Produits/(.*)$ Produits/?path=$1 [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^Categories/(.*)$ Categories/?path=$1 [L,QSA]
+</IfModule>

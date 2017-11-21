@@ -1,0 +1,394 @@
+/* ============================================== */
+/* Global */
+/* ============================================== */
+* {
+    color: white;
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*:focus { 
+    border: none;
+    outline: none;
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    background: black;
+    font-size: 16px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus {
+    -webkit-text-fill-color: white ;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus {
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+/* ============================================== */
+/* Header */
+/* ============================================== */
+/* Header Menu */
+.hdmn {
+    background: rgba(255,255,255,0.2);
+    text-align: left;
+    font-size: 0px;
+    line-height: 40px;
+    position: relative;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+
+/* Header Menu Title */
+.hdmt {
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    font-size: 25px;
+    font-family: AKronim;
+    color: cyan;
+    padding: 0 20px 0 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Header Menu Line */
+.hdml {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Header Menu Item */
+.hdmi {
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    font-size: 18px;
+    font-family: Aclonica;
+    padding: 0 10px 0 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.hdmi:hover {
+    border-bottom: 5px solid #89a830;
+}
+
+.hdmi.active {
+    border-bottom: 5px solid #f67b20;
+}
+
+/* Header Menu Bars */
+.hdmb {
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    font-size: 25px;
+    font-family: AKronim;
+    color: cyan;
+    padding: 0 10px 0 10px;
+    display: none;
+    vertical-align: middle;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+/* ============================================== */
+/* Page */
+/* ============================================== */
+/* Page Container */
+.pgCr00 {
+    padding: 0px 0px;
+}
+
+.pgCr05 {
+    padding: 5px 0px;
+}
+
+.pgCr10 {
+    padding: 10px 0px;
+}
+
+.pgCr20 {
+    padding: 20px 0px;
+}
+
+/* Page Content */
+.pgCt00 {
+    padding: 0px 10px;
+}
+
+.pgCt05 {
+    padding: 5px 10px;
+}
+
+.pgCt10 {
+    padding: 10px 10px;
+}
+
+.pgCt20 {
+    padding: 20px 10px;
+}
+/* ============================================== */
+/* Custom */
+/* ============================================== */
+/* background */
+.bgra {
+    background: rgba(255,255,255,0.2);
+}
+
+/* border */
+.brda {
+    border: 5px solid rgba(255,255,255,0.2);
+}
+
+.brdb {
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+}
+
+/* border-bottom */
+.bdba {
+    border-bottom: 1px dotted rgba(255,255,255,0.2);
+}
+
+.bdbb {
+    border-bottom: 5px solid #f67b20;
+}
+
+.bdbc {
+    border-bottom: 5px solid #89a830;
+}
+
+.bdbd {
+    border-bottom: 5px solid rgba(255,255,255,0.2);
+}
+
+/* border-top */
+.bdta {
+    border-top: 2px solid rgba(255,255,255,0.2);
+}
+
+/* color */
+.clra {
+    color: cyan;
+}
+
+.clrb {
+    color: #f67b20;
+}
+
+.clrc {
+    color: yellow;
+}
+
+.clrd {
+    color: #89a830;
+}
+
+/* display */
+.dibm {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.dibt {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.dtcm {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/* font-family */
+.ftfa {
+    font-family: Aclonica;
+}
+
+.ftfb {
+    font-family: AKronim;
+}
+
+/* font-size */
+.fts0 {
+    font-size: 0;
+}
+
+.ftsa {
+    font-size: 12px;
+}
+
+.ftsb {
+    font-size: 25px;
+}
+
+.ftsc {
+    font-size: 18px;
+}
+
+.ftsd {
+    font-size: 16px;
+}
+
+/* height */
+.hgha {
+    height: 150px;
+}
+
+/* hover */
+.hvra:hover {
+    border-bottom: 5px solid #89a830;
+}
+
+.hvrb:hover {
+    text-decoration: underline;
+}
+
+/* line-height */
+.lnha {
+    line-height: 40px;
+}
+
+.lnhb {
+    line-height: 30px;
+}
+
+/* margin */
+.mrga {
+    margin: auto;
+}
+
+.mrgb {
+    margin: 5px 0;
+}
+
+/* margin-bottom */
+.mgba {
+    margin-bottom: 10px;
+}
+
+/* max-width */
+.mxwa {
+    max-width: 800px;
+}
+
+/* min-height */
+.mnha {
+    min-height: 150px;
+}
+
+/* padding */
+.pdda {
+    padding: 20px;
+}
+
+.pddb {
+    padding: 0 20px 0 10px;
+}
+
+.pddc {
+    padding: 0 10px 0 10px;
+}
+
+.pddd {
+    padding: 0 20px 0 20px;
+}
+
+/* padding-bottom */
+.pdba {
+    padding-bottom: 10px;
+}
+
+/* position */
+.psaa {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/* text-align */
+.txal {
+    text-align: left;
+}
+
+.txac {
+    text-align: center;
+}
+
+/* text-decoration */
+.txda {
+    text-decoration: none;
+}
+
+/* width */
+.wdha {
+    width: 200px;
+}
+/* ============================================== */
+/* Mobile */ 
+/* ============================================== */
+/* Tablet Landscape */
+@media (max-width:1024px) {
+    
+}
+/* ---------------------------------------------- */
+@media (max-width:960px) {
+
+}
+/* ---------------------------------------------- */
+/* Tablet Portrait */
+@media (max-width:768px) {   
+    /* Header */    
+    .hdml {
+        display: none;
+    }
+        
+    .hdmb {
+        display: inline-block;
+    }
+
+    .rwd .hdml {
+        display: block;
+    }
+}
+/* ---------------------------------------------- */
+/* SmartPhone Landscape */
+@media (max-width:640px) {    
+
+}
+/* ---------------------------------------------- */
+@media (max-width:520px) {
+
+}
+/* ---------------------------------------------- */
+@media (max-width:420px) {
+
+}
+/* ---------------------------------------------- */
+/* SmartPhone Portrait */
+@media (max-width:320px) {
+
+}
+/* ============================================== */

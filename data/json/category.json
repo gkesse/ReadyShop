@@ -1,0 +1,18 @@
+[
+    {
+        "id":"1",
+        "name":"Machine à café à filtre",
+        "heading":"Machine à café",
+        "content":
+        [
+            "Le café est la boisson la plus consommée au monde après l’eau.",
+            "En France, près de 7 français sur 10 adorent le café et en consomment",
+            "au moins 1 par jour. Ce n’est pas pour rien que les statistiques montrent",
+            "qu’en moyenne les français consomment 5.9 Kg de café par an. Ce succès",
+            "n’est cependant pas juste un effet de mode ou une habitude devenue",
+            "tradition. Outre ses bienfaits excitants et énergisants, il est un",
+            "puissant antioxydant et diminue le risque de cancers et d’autres",
+            "maladies dégénératives."
+        ]
+    }
+]

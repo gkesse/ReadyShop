@@ -1,0 +1,71 @@
+[
+    {
+        "id":"1",
+        "name":"Machine à café à filtre",
+        "description":
+        [
+            "Ces appareils sont les plus répandus et pour cause ! Ils"
+            ,"permettent de préparer de grande quantité de cafés.",
+            "Pour ce faire, ils sont munis d’un réservoir d’eau qui est",
+            "chauffé par une résistance à la base de la machine. Une fois",
+            "chaude, l’eau est dirigée en haut de l’appareil pour passer à",
+            "travers un filtre contenant une moulure."
+        ],
+        "price":"15",
+        "stock":"10",
+        "weight":"15",
+        "path":"Machine_A_Cafe/Machine_A_Cafe_A_Filtre",
+        "image":"img/Machine_A_Cafe/Machine_A_Cafe_A_Filtre.png"
+    },
+    {
+        "id":"2",
+        "name":"Machine à café à dosette",
+        "description":
+        [
+            "Ces appareils ressemblent beaucoup aux machines à expresso.",
+            "Ils utilisent tous deux la percolation et offrent la même",
+            "qualité de café. Toutefois, les modèles à dosettes fonctionnent",
+            "avec des capsules préposées. Ils rencontrent beaucoup de succès",
+            "dernièrement du fait de leur facilité d’utilisation."
+        ],
+        "price":"15",
+        "stock":"10",
+        "weight":"15",
+        "path":"Machine_A_Cafe/Machine_A_Cafe_A_Dosette",
+        "image":"img/Machine_A_Cafe/Machine_A_Cafe_A_Dosette.png"
+    },
+    {
+        "id":"3",
+        "name":"Machine à café avec broyeur intégré",
+        "description":
+        [
+            "Ces appareils sont sans aucun doute les préférés des connaisseurs.",
+            "Ils permettent de produire une boisson à partir de graines de café.",
+            "Pour ce faire, ils sont munis d’un broyeur intégré qui vous donne",
+            "l’opportunité de profiter de l’arôme d’une méthode de mouture",
+            "d’excellente qualité."
+        ],
+        "price":"15",
+        "stock":"10",
+        "weight":"15",
+        "path":"Machine_A_Cafe/Machine_A_Cafe_Avec_Broyeur_Intergre",
+        "image":"img/Machine_A_Cafe/Machine_A_Cafe_Avec_Broyeur_Intergre.png"
+    },
+    {
+        "id":"4",
+        "name":"Machine à café Avec Percolateur",
+        "description":
+        [
+            "Ces appareils séduisent de plus en plus de personnes du fait",
+            "du nombre grandissant d’adeptes d’expresso. Ils permettent en",
+            "effet de préparer ce type de café au gout plus prononcé. Pour ce",
+            "faire, ils utilisent la percolation pour profiter aux mieux des",
+            "arômes des moulures."
+        ],
+        "price":"15",
+        "stock":"10",
+        "weight":"15",
+        "path":"Machine_A_Cafe/Machine_A_Cafe_Avec_Percolateur",
+        "image":"img/Machine_A_Cafe/Machine_A_Cafe_Avec_Percolateur.png"
+    }
+]
